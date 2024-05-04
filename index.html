@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>My Clock</title>
+</head>
+<body>
+    <h3 id="title">My First Analog and Digital Wall Clock</h3>
+    <div id="container">
+        <div id="analog">
+            <div id="cpoint"></div>
+            <div id="fcpoint"></div>
+            <div id="hourHand"></div>
+            <div id="minHand"></div>
+            <div id="secHand"></div>
+            <p id="first">12</p>
+            <p class="firstinline" id="eleven">11</p>
+            <p class="firstinline" id="one">1</p>
+            <div></div>
+            <p class="secinline" id="ten">10</p>
+            <p class="secinline" id="two">2</p>
+            <div></div>
+            <p class="thirdinline" id="nine">9</p>
+            <p class="thirdinline" id="three">3</p>
+            <div></div>
+            <p class="forthinline" id="eight">8</p>
+            <p class="forthinline" id="four">4</p>
+            <div></div>
+            <p class="fifthinline" id="seven">7</p>
+            <p class="firstinline" id="five">5</p>
+            <div></div>
+            <p id="last">6</p>
+        </div>
+        <div id="digital">
+            <div id="time"><span id="readHour">00</span>:<span id="readMins">00</span>:<span id="readSecs" style="font-size: 35px;">00</span></div>
+            <div id="date"><span id="weekday">Sun</span> <span id="day">00</span> <span id="month">Jan</span> <span id="year">2024</span></div>
+            <div id="setting"> 
+                  <!--
+                <div class="btnName">Reset</div>
+                <div class="btnName">Up</div>
+                <div class="btnName">down</div>
+                <div></div>
+                <div class="btn" id="reset"></div>
+                <div class="btn" id="up"></div>
+                <div class="btn" id="down"></div>
+                -->
+            </div>
+        </div>
+    </div>
+    <script src="/clock.js"></script>
+</body>
+</html>
